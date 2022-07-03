@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var canteenStalls = [
+        CanteenStall(name: "Chinese Noodles", stampProgress: 0),
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView() {
+            List {
+                ForEach($canteenStalls) { $stall in
+                    NavigationLink {
+                        
+                    } label: {
+                        Text(stall.name)
+                    }
+                }
+            }
+            .navigationTitle("Stalls")
+        }
     }
 }
 

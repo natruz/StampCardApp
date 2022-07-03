@@ -11,6 +11,7 @@
 		2E4074AD2871C7A5002D41ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4074AC2871C7A5002D41ED /* ContentView.swift */; };
 		2E4074AF2871C7AA002D41ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4074AE2871C7AA002D41ED /* Assets.xcassets */; };
 		2E4074B22871C7AA002D41ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4074B12871C7AA002D41ED /* Preview Assets.xcassets */; };
+		2E4074B92871C9BB002D41ED /* CanteenStall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4074B82871C9BB002D41ED /* CanteenStall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2E4074AC2871C7A5002D41ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E4074AE2871C7AA002D41ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E4074B12871C7AA002D41ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E4074B82871C9BB002D41ED /* CanteenStall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteenStall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2E4074AA2871C7A5002D41ED /* studentCongress_stampCardApp.swift */,
 				2E4074AC2871C7A5002D41ED /* ContentView.swift */,
+				2E4074B82871C9BB002D41ED /* CanteenStall.swift */,
 				2E4074AE2871C7AA002D41ED /* Assets.xcassets */,
 				2E4074B02871C7AA002D41ED /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				2E4074AD2871C7A5002D41ED /* ContentView.swift in Sources */,
 				2E4074AB2871C7A5002D41ED /* studentCongress_stampCardApp.swift in Sources */,
+				2E4074B92871C9BB002D41ED /* CanteenStall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
