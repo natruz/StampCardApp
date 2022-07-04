@@ -36,8 +36,7 @@ struct StallDetailView: View {
                     stampProgress += 1
                     if stampProgress == 1 {
                         circle1 = Color.green
-                    } else if stampProgress == 2 || rewardCount > 1 {
-                        circle1 = Color.green
+                    } else if stampProgress == 2 {
                         circle2 = Color.green
                     } else if stampProgress == 3 {
                         circle3 = Color.green
@@ -53,7 +52,7 @@ struct StallDetailView: View {
                         circle8 = Color.green
                     } else if stampProgress == 9 {
                         circle9 = Color.green
-                    } else if stampProgress == 10 {
+                    } else if stampProgress % 10 == 0 {
                         circle10 = Color.green
                         rewardCount += 1
                     } else if stampProgress > 10 {
