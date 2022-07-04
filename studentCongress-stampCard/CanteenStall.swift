@@ -12,7 +12,7 @@ struct CanteenStall: Identifiable {
     let id = UUID()
     
     var name: String
-    var stampProgress: Int
+    var stampProgress = 0
     var reward = false
     
 }

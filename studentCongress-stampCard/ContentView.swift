@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State var canteenStalls = [
-        CanteenStall(name: "Chinese Noodles", stampProgress: 0),
+        CanteenStall(name: "Chinese Noodles"),
+        CanteenStall(name: "Chinese Rice"),
     ]
     
     var body: some View {
@@ -18,7 +19,7 @@ struct ContentView: View {
             List {
                 ForEach($canteenStalls) { $stall in
                     NavigationLink {
-                        
+                        StallDetailView()
                     } label: {
                         Text(stall.name)
                     }
